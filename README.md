@@ -1,6 +1,6 @@
-# WSO2 Cloud Immutable Resources - Thunder Setup Guide
+# WSO2 Cloud Declarative Resources - Thunder Setup Guide
 
-This guide walks you through setting up and running the Thunder WSO2 Cloud use case with immutable resources.
+This guide walks you through setting up and running the Thunder WSO2 Cloud use case with declarative resources.
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ unzip thunder-0.18.0-macos-arm64.zip
 cd thunder-0.18.0-macos-arm64
 ```
 
-### Step 04: Clone Immutable Resources
+### Step 04: Clone Declarative Resources
 
 Clone this repository content to Thunder's resources directory:
 
@@ -183,7 +183,7 @@ cd sample-app-react-sdk-0.18.0-macos-arm64
 
 ## Repository Structure
 
-This repository contains immutable resources for WSO2 Cloud:
+This repository contains declarative resources for WSO2 Cloud:
 
 - `applications/` - Application configurations
 - `flows/` - Authentication flows
