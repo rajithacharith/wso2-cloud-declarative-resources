@@ -1,0 +1,6 @@
+# File: Person.yaml
+id: 44a0f574-b209-422b-81a3-98327924de16
+name: Person
+organization_unit_id: 436e4321-b567-40f0-afed-ee6f27d5ecc0
+allow_self_registration: true
+schema: '{"sub":{"type":"string","required":true,"unique":true},"username":{"type":"string","required":false,"unique":false},"email":{"type":"string","required":false,"unique":false}}'

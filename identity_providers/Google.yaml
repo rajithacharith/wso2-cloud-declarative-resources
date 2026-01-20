@@ -1,0 +1,14 @@
+id: bdb4240a-8be6-4a2a-8875-c9194e21b640
+name: Google
+description: Login with Google
+type: GOOGLE
+properties:
+  - name: client_id
+    value: {{.GOOGLE_CLIENT_ID}}
+  - name: client_secret
+    value: {{.GOOGLE_CLIENT_SECRET}}
+    is_secret: true
+  - name: redirect_uri
+    value: {{.GOOGLE_REDIRECT_URI}}
+  - name: scopes
+    value: {{.GOOGLE_SCOPES}}
